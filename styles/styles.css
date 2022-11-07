@@ -1,0 +1,21 @@
+body{
+    background-color: rgba(134, 190, 151, 0.938);
+    font-family: 'Times New Roman', Times, serif;
+}
+.topnav {
+    background-color: rgba(16, 100, 65, 0.938);
+    overflow: hidden;
+    width: 100% !important;
+    display: flex;
+    position: relative;
+}
+.topnav a {
+    color: #111;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.topnav a:hover {
+    color: rgb(68, 125, 158);
+}
