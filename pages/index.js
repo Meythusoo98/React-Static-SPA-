@@ -12,47 +12,54 @@ export default function Home() {
       </Head>
 
       <div class = "topnav">
+      <div class="logo">
+        <img src='115-MmathusoKgalane.jpg' width={80} height="80"/>
+        </div>
         <a href='/' class="active">Home</a>
         <a href='/about'>About</a>
-        <a href='/contact'>Contact</a>
       </div>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to Mmathusos' Portfolio
+          Welcome to Mmathusos' Insider.
         </h1>
 
-        <p className={styles.description}>
-          Get started by{' '}
-          <code className={styles.code}>knowing me better and why you here!!</code>
-        </p>
-
-        <p><img src='115-MmathusoKgalane.jpg' width={150} height="150"/></p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="" className={styles.card}>
+            <h2>About Mmathuso &rarr;</h2>
+            <p>My name is Mmathuso, a 26years old that refused to give up on her dreams, career and life. I am
+              a very fussy, loud, crazy(they joke) and very inquisitive person. I wont say I am a hard worker,
+              but I will say a smart worker. I learn good not fast because I forget, I love to challenge and push myself
+              to see my potential. I BELIEVE I can achieve anything in my life.
+            </p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a href="https://www.linkedin.com/in/mmathuso-kgalane-a08050121/" className={styles.card}>
+            <h2>More about Mmathuso &rarr;</h2>
+            <p>My education path was very tricky,so there is not much to it. I am a product of GirlCode and 
+              WeThinkCode_, which I am super proud to be. Mostly I am a self taught female.
+              My linkedIn account will tell you more details needed to be known about my career
+              path and skills and my education where I started, where I am headed and hopefully
+              the path I will undertake soon.
+            </p>
+          </a>
+
+
+          <a href="https://github.com/Meythusoo98/Web-development" className={styles.card}>
+            <h2>Why I want to be a developer at SovTech &rarr;</h2>
+            <p>This is me overcoming my fear of thinking I was never good enough for any company. Because WeThinkCode_
+              is giving me this big opportunity to express myself in everyway I can.
+              I want to be a dev at SovTech reason being, it is a beautiful company, full of young people and culturally fit for someone who is growing.
+              It gives opportunity to new adventures and I see the ability to career growth, learn more with the company
+            </p>
           </a>
         </div>
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
           Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
+            <p>Mmathuso Kgalane.</p> 
       </footer>
     </div>
   )
