@@ -1,16 +1,16 @@
 body{
-    background-color: rgba(134, 190, 151, 0.938);
+    background-color: rgba(36, 53, 46, 0.473);
     font-family: 'Times New Roman', Times, serif;
 }
 .topnav {
-    background-color: rgba(16, 100, 65, 0.938);
+    background-color: rgba(36, 53, 46, 0.473);
     overflow: hidden;
     width: 100% !important;
-    display: flex;
+    display: inline-flex;
     position: relative;
 }
 .topnav a {
-    color: #111;
+    color: #fff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -19,3 +19,7 @@ body{
 .topnav a:hover {
     color: rgb(68, 125, 158);
 }
+.logo > img{
+    flex-direction: row;
+    border-radius:40px !important;
+  }
